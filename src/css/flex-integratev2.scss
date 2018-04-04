@@ -1,0 +1,75 @@
+.flex-basic {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-box-orient: horizontal;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-vertical {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -webkit-box-orient: vertical;
+}
+
+.flex-jc-sb {
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+}
+
+.flex-jc-c {
+  justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+}
+
+.flex-jc-e {
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  -webkit-box-pack: end;
+}
+
+.flex-jc-s {
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  -webkit-box-pack: start;
+}
+
+.flex-jc-sa {
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  text-align: center;
+  margin:auto;
+}
+
+.flex-ai-c {
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+}
+
+.flex-ai-s {
+  align-items: stretch;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+}
+
+.flex-1 {
+  flex: 1;
+  -webkit-flex: 1;
+  -webkit-box-flex: 1;
+  -moz-flex-shrink: 1;
+  -webkit-flex-shrink: 1;
+  flex-shrink: 1;
+}
+
+/*box    study   http://www.cnblogs.com/garfieldzhong/p/4655924.html*/

@@ -1,0 +1,274 @@
+/**
+ * Main Page
+ */
+.main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(160,248,222);
+  justify-content: center;
+  align-items: center;
+  .img-wrapper{
+    width: 750px;
+    height: 2640px;
+    position: relative;
+    .o2_main_page{
+      width: 750px;
+    }
+    .o2_main_btn{
+      width: 345px;
+      height: 92px;
+      position: absolute;
+      left:50%;
+      top:648px;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+    .material-gift{
+      position: absolute;
+      left:26px;
+      right:24px;
+      top:505px;
+      height: 798px;
+      //background-color: red;
+      .material-gift-content{
+        height: 100%;
+        width: 100%;
+        padding:40px 40px;
+        box-sizing: border-box;
+        position: relative;
+        text-align: center;
+        .material-content{
+          //height: 578px;
+          text-align: center;
+          box-sizing: border-box;
+          //background-color: red;
+          .gift-metril-bootom{
+            margin-top:16px*2;
+          }
+          .shouzhang-tpl{
+            width: 180px;
+            height: 90px*2+6px*2+22px*2;
+            .shouzhang-tpl-img{
+              width: 180px;
+              height: 180px;
+            }
+            .shouzhang-text{
+              font-size: 16px*2;
+              line-height:22px*2;
+              color: #268774;
+            }
+          }
+          .stationery{
+            width: 180px;
+            height: 90px*2+6px*2+22px*2;
+            .stationery-img{
+              width: 90px*2;
+              height: 90px*2;
+            }
+            .stationery-text{
+              font-size: 16px*2;
+              line-height:22px*2;
+              color: #268774;
+            }
+          }
+          .card-bg{
+            width: 180px;
+            height: 90px*2+6px*2+22px*2;
+            .card-bg-img{
+              width: 90px*2;
+              height: 90px*2;
+            }
+            .card-bg-text{
+              font-size: 16px*2;
+              line-height:22px*2;
+              color: #268774;
+            }
+          }
+          .little-world{
+            width: 146px*2;
+            height: 90px*2+6px*2+22px*2;
+            .little-world-img{
+              width: 146px*2;
+              height: 90px*2;
+            }
+            .little-world-text{
+              font-size: 16px*2;
+              line-height:22px*2;
+              color: #268774;
+            }
+          }
+          .theme{
+            width: 146px*2;
+            height: 90px*2+6px*2+22px*2;
+            .theme-img{
+              width: 146px*2;
+              height: 90px*2;
+            }
+            .theme-text{
+              font-size: 16px*2;
+              line-height:22px*2;
+              color: #268774;
+            }
+          }
+        }
+        .gift-btn{
+          //display: inline-block;
+          margin:0 auto;
+          margin-top:34px;
+          position: relative;
+          width: 594px/3*2;
+          height: 165px/3*2;
+          .gift-btn-bg{
+            position: absolute;
+            width: 594px/3*2;
+            height: 165px/3*2;
+            top:0;
+            left:0;
+          }
+          .gift-text{
+            font-size:36px;
+            color: #FF7000;
+            font-weight: 600;
+            top:-2px;
+            position: relative;
+          }
+        }
+        .vip-buy-link{
+          margin-top:20px;
+          position: relative;
+          left:-20px;
+          .vip-icon{
+            width: 88px;
+            height: 72px;
+            margin-bottom:15px;
+          }
+          .vip-icon2{
+            width: 24px/3*2;
+            height: 42px/3*2;
+            margin-left: 10px;
+          }
+          .vip-buy-text{
+            font-size: 32px;
+            color: #FF7000;
+          }
+        }
+      }
+    }
+    .introduce{
+      position: absolute;
+      left:0;
+      right:0;
+      top:1375px;
+      color: #198271;
+      font-size:28px;
+      line-height:40px;
+      padding-left:34px;
+      padding-right:28px;
+      .introduce-title-text{
+        font-size:40px;
+        font-weight: 600;
+      }
+      .introduce-title{
+        margin-bottom:28px;
+      }
+      .introduce-item{
+        margin-top:12px;
+        .introduce-icon{
+          width: 32px;
+          height: 32px;
+          -webkit-transform: translateY(2px);
+          -moz-transform: translateY(2px);
+          -ms-transform: translateY(2px);
+          -o-transform: translateY(2px);
+          transform: translateY(2px);
+        }
+        .introduce-text{
+          display: inline-block;
+          width: 640px;
+        }
+      }
+    }
+  }
+  .o2_main_content{
+    width: 750px;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .pop-mask{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,0.7);
+    .pop-mask-content{
+      width: 540px;
+      position: relative;
+      .pop-close{
+        width: 84px/3*2;
+        height: 84px/3*2;
+        position: absolute;
+        z-index:2;
+        right:10px*2;
+        top:10px*2;
+      }
+      .pop-gift-title{
+        color: white;
+        text-align: center;
+        font-size:18px*2;
+        line-height:25px*2;
+        position: absolute;
+        left:0;
+        right:0;
+        top:30px*2;
+        z-index: 2;
+      }
+      .pop-gift{
+        width: 885px/3*2;
+        height: 846px/3*2;
+        position: relative;
+        left:270px*2-875px/3*2;
+        top:248px*2-846px/3*2;
+      }
+      .pop-gift-buy{
+        width: 486px/3*2;
+        height: 129px/3*2;
+        margin:0 auto;
+        position: relative;
+        .pop-gift-buy-img{
+          width: 486px/3*2;
+          height: 129px/3*2;
+          position: absolute;
+          left:0;
+          top:0;
+        }
+        .pop-gift-buy-text{
+          position: relative;
+          color:#FF7000;
+          font-size:18px*2;
+          line-height:25px*2;
+        }
+      }
+    }
+  }
+
+  .info {
+    text-align: center;
+
+    .name {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto 30px;
+      background-color: #FFF;
+      border-radius: 100%;
+      font-size: 60px;
+      line-height: 200px;
+      text-transform: uppercase;
+    }
+  }
+}
